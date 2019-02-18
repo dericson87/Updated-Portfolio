@@ -129,7 +129,7 @@ p.lead {
 }
 .img-profile {
   border: 10px solid transparent;
-    border-image: linear-gradient(to right, whitesmoke 0%, #23A6D5 100%);
+   border-image: linear-gradient(to right, #23A6D5 50% 0%, #23A6D5 50% 50%, whitesmoke 50%,whitesmoke 100%);
     border-image-slice: 1;
 }
 @media (min-width:992px) {
